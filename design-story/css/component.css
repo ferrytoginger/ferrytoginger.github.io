@@ -82,7 +82,7 @@ button.slider-switch {
     margin: 0 auto;
 	outline: none;
 	overflow: hidden;
-	opacity: 0.78;
+	opacity: 0.89;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 	pointer-events: auto;
@@ -281,7 +281,7 @@ button.content-switch {
 	font-weight: 800;
 	outline: none;
 	z-index: 1000;
-	opacity: 0.7;
+	opacity: 0.89;
 	-webkit-transition: -webkit-transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
 	transition: transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
 }
@@ -498,7 +498,7 @@ button.content-switch::before {
 		padding-top: 3.8em;
 	}
     
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     div.codrops-top span.no-show {
         display: none;
     }
@@ -510,5 +510,9 @@ button.content-switch::before {
         margin: 0 auto;
     } 
     div.codrops-top {
-       left:-7.5%;
+        left:-7.5%;}
+    .pages .content h2 {
+		font-size: 2em;
+		padding-top: 4.2em;
+	}
 }
